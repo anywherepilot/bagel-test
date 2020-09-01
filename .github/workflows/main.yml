@@ -22,3 +22,5 @@ jobs:
           SLACK_MESSAGE: 'How do you like dem bagels'
           SLACK_TITLE: 'New round'
           MSG_MINIMAL: true
+          SLACK_USERNAME: bagel
+          SLACK_FOOTER: ''
