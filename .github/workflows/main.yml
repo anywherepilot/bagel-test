@@ -14,11 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Slack notification
-        uses: rtCamp/action-slack-notify@v2.1.0
-        env:
-          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
-          SLACK_MESSAGE: 'How do you like dem bagels'
-          SLACK_TITLE: 'New round'
-          MSG_MINIMAL: true
-          SLACK_USERNAME: bagel
-          SLACK_FOOTER: ''
+        uses: anywherepilot/bagel@master
+        with:
+          slack-webhook: ${{ secrets.SLACK_WEBHOOK }}
+          slack-aliases: 'dude1, dude2, dudette1, dudette2'
