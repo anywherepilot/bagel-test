@@ -21,3 +21,4 @@ jobs:
           SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
           SLACK_MESSAGE: 'How do you like dem bagels'
           SLACK_TITLE: 'New round'
+          MSG_MINIMAL: true
