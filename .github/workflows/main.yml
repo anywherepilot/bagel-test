@@ -16,5 +16,7 @@ jobs:
       - name: Slack notification
         uses: anywherepilot/bagel@master
         with:
+          slack-api-token: ${{ secrets.SLACK_API_TOKEN }}
+          pairing-channels: testing-bagels
           slack-webhook: ${{ secrets.SLACK_WEBHOOK }}
           slack-aliases: 'dude1, dude2, dudette1, dudette2'
