@@ -20,4 +20,4 @@ jobs:
           #slack-api-token: ${{ secrets.SLACK_API_TOKEN }}
           #pairing-channels: testing-bagels
           slack-webhook: ${{ secrets.SLACK_WEBHOOK }}
-          slack-aliases: 'user1, user2, user3, user4, user5, user6, user7'
+          slack-aliases: 'user1, user2, user3, user4, user5, user6, user7, user8'
