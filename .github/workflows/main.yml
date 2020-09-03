@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Slack notification
-        uses: anywherepilot/bagel@v0.1
+        uses: anywherepilot/bagel@master
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           #slack-api-token: ${{ secrets.SLACK_API_TOKEN }}
